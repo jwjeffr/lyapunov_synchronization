@@ -1,0 +1,10 @@
+#PBS -N gec
+#PBS -l select=1:ncpus=20:mem=16gb:interconnect=1g,walltime=5:00:00
+
+module purge
+module add anaconda3/2021.05-gcc/8.3.1
+
+cd /home/jwjeffr/lyapunov_synchronization
+rm gec.*
+python main.py
+

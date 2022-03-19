@@ -1,0 +1,9 @@
+#PBS -N exp
+#PBS -l select=1:ncpus=2:mem=8gb:interconnect=1g,walltime=1:00:00
+
+module purge
+module add anaconda3/2021.05-gcc/8.3.1
+
+cd /home/jwjeffr/lyapunov_synchronization
+rm exp.*
+python exponent_calculation_graph.py

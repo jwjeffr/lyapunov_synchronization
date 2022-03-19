@@ -1,0 +1,27 @@
+24 cpu pool opened, using 23
+dump file opened
+data written to dump file
+dump file removed
+Global Exponent = 0.11337026203629126
+Weighted Standard Error = 0.000568152463567206
+Number of Points = 30
+Sample Size at Each Point = 30
+Time Interval = [0.0, 50.0]
+Time Step = 0.05005005005005005
+
+ 
+ 
++------------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES REQUESTED | 
++------------------------------------------+ 
+ 
+mem=16gb,walltime=05:00:00,ncpus=20
+ 
+ 
++-------------------------------------+ 
+| PALMETTO CLUSTER PBS RESOURCES USED | 
++-------------------------------------+ 
+ 
+cput=00:08:48,mem=307120kb,walltime=00:00:41,ncpus=20,cpupercent=0,vmem=47947776kb
+ 
+ 
