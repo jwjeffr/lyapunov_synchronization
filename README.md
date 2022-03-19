@@ -22,7 +22,7 @@ Molecular systems are often simulated at constant temperature, which is simulate
   <img src="https://github.com/jwjeffr/lyapunov_synchronization/blob/main/langevin_dynamics.png?raw=true">
 </p>
 
-The first term represents the effect of internal forces on the particle (modeled as a sum of Gaussian's confined to a super-basin in this project), the second term simulates drag, and the last term simulates random "kicks" from the temperature control.
+The first term represents the effect of internal forces on the particle (modeled as a sum of Gaussian wells confined to a super-basin in this project), the second term simulates drag, and the last term simulates random "kicks" from the temperature control.
 
 The last term introduces difficulty in the simulation: we need a random force. Simulating this random force requires picking a pseudorandom number generator, which generates an entirely deterministic sequence of numbers.
 
