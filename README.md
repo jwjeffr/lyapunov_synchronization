@@ -11,7 +11,7 @@ A molecular dynamical trajectory is the trajectory (position and momenta as they
 A Lyapunov exponent is a way to measure the divergence of two initially infinitesimally close trajectories in phase space:
   
 <p align="center">
-    ![lyapunov_exponent](https://github.com/jwjeffr/lyapunov_synchronization/blob/main/lyapunov_exponent.png?raw=true)
+  <img src="https://github.com/jwjeffr/lyapunov_synchronization/blob/main/lyapunov_exponent.png?raw=true">
 </p>
 
 ## What is synchronization in this context?
@@ -19,7 +19,7 @@ A Lyapunov exponent is a way to measure the divergence of two initially infinite
 Molecular systems are often simulated at constant temperature, which is simulated by the Langevin equation:
 
 <p align="center">
-    ![langevin_dynamics](https://github.com/jwjeffr/lyapunov_synchronization/blob/main/langevin_dynamics.png?raw=true)
+  <img src="https://github.com/jwjeffr/lyapunov_synchronization/blob/main/langevin_dynamics.png?raw=true">
 </p>
 
 The first term represents the effect of internal forces on the particle (modeled as a sum of Gaussian's confined to a super-basin in this project), the second term simulates drag, and the last term simulates random "kicks" from the temperature control.
